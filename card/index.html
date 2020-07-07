@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>card</title>
+</head>
+
+<body>
+    <div class="menu">
+        <ul class="menu-ul">
+            <li class="logo menu-item"> <img src="../img/Define_Logo.svg" alt="Define"></li>
+            <li class="menu-item">Payments</li>
+            <li class="menu-item active">Get support</li>
+        </ul>
+    </div>
+    <div class="main">
+        <div class="top">
+            <p class="order">Order for tomasz@projectpeople.pl</p>
+        </div>
+        <div class="title">
+            <h1>Define plugin license</h1>
+            <input type="number" class="count">
+            <p>pcs</p>
+            <p class="price">$99.99/ year</p>
+        </div>
+        <div class="btn">
+            <button class="bnt btn-primary">Update cart</button>
+            <button>I have promo code</button>
+            <table class="price">
+                <tr>
+                    <td>netto</td>
+                    <td>$99.99</td>
+                </tr>
+                <tr>
+                    <td>with VAT</td>
+                    <td>$23.23</td>
+                </tr>
+
+            </table>
+            <p class="enterdet">Enter payment details</p>
+        </div>
+        <div class="pay"></div>
+        <div class="info"></div>
+        <div class="form">
+            <form action="#">
+                <div class="container">
+                    <div class="row">
+                        <div class="cardnum col">
+                            <p>Card number</p>
+                            <input type="text" placeholder="Eg. 3355 2235 2212 3456">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="expiry col">
+                            <p>Expiry</p>
+                            <input type="text" placeholder="MM\YY">
+                        </div>
+                        <div class="cvc col">
+                            <p>CVC</p>
+                            <input type="text" placeholder="Eg. 332">
+                            
+                        </div>
+                    </div>
+                </div>
+                <input type="submit" value="Confirm purchase #99,99">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

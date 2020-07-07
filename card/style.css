@@ -1,0 +1,26 @@
+:root {
+    --dusk-blue: #233881;
+    --cerulean-two: #026fda;
+    --off-white: #fffffe;
+    --white: #ffffff;
+  }
+.menu-item {
+    display: inline;
+    margin-right: 300px;
+    list-style-type: none;    
+    opacity: 0.3;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    text-align: center;
+    color: var(--dusk-blue);    
+    
+  }
+  .logo.menu-item {
+      opacity: 1;
+  }
+  .active {
+      opacity: 1;
+      border-bottom: 1px solid var(--dusk-blue);
+  }
