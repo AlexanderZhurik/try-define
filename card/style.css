@@ -1,26 +1,77 @@
 :root {
-    --dusk-blue: #233881;
-    --cerulean-two: #026fda;
-    --off-white: #fffffe;
-    --white: #ffffff;
-  }
+  --dusk-blue: #233881;
+  --cerulean-two: #026fda;
+  --off-white: #fffffe;
+  --white: #ffffff;
+  --night-blue: #050d2a;
+  --very-light-blue: #e5edff;
+}
+
+.menu {
+  margin-top: 20px;
+}
+
 .menu-item {
-    display: inline;
-    margin-right: 300px;
-    list-style-type: none;    
-    opacity: 0.3;
-    font-family: Inter;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 1.5;
-    text-align: center;
-    color: var(--dusk-blue);    
-    
-  }
-  .logo.menu-item {
-      opacity: 1;
-  }
-  .active {
-      opacity: 1;
-      border-bottom: 1px solid var(--dusk-blue);
-  }
+  display: inline;
+  margin-right: 300px;
+  list-style-type: none;
+  opacity: 0.3;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+  color: var(--dusk-blue);
+}
+
+.logo.menu-item {
+  opacity: 1;
+  margin-left: 250px;
+
+}
+/* https://www.flaticon.com/packs/browsers-3?word=logo */
+/* https://www.flaticon.com/packs/videogame-logo-4?word=logo */
+/* https://www.flaticon.com/packs/social-15?word=logo */
+/* https://www.flaticon.com/packs/logo-502/2?word=logo */
+.active {
+  opacity: 1;
+  border-bottom: 1px solid var(--dusk-blue);
+  padding-bottom: 10px;
+  margin-right: 0;
+}
+
+.main {
+  background: white;
+  border-radius: 5px;
+  box-shadow: 0 3px 66px 0 #e3e8ef;
+  margin: 0 170px;
+  padding: 40px;
+}
+
+.order {
+  opacity: 0.3;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1.5;
+  color: var(--night-blue);
+}
+
+.ordermail {
+  opacity: 0.9;
+  font-weight: 600;
+}
+.top {
+  display: flex;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid var(--very-light-blue);
+}
+#dropdownMenuButton {
+  background: none;
+  border: none;
+  color: var(--night-blue);
+  font-weight: 600;
+}
+.dropdown-toggle::after {
+  display: none;
+}
